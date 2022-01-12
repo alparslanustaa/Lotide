@@ -21,3 +21,4 @@ let without = function (source, itemsToRemove) {
 
 assertEqual(without([1, 2, 3], [1])) // => [2, 3]) // => [2, 3]
 assertEqual(without(["1", "2", "3"], [1, 2, "3"])) // => ["1", "2"]
+
