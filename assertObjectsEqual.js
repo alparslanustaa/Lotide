@@ -10,7 +10,6 @@ const assertObjectsEqual = function(obj1,obj2){
 const eqObjects = function (object1, object2) {
   let Arr1 = Object.keys(object1);
   let Arr2 = Object.keys(object2);
-
   if (Arr1.length !== Arr2.length) {
     return false;
   }
@@ -26,3 +25,7 @@ const eqObjects = function (object1, object2) {
   }
   return false;
 };
+
+const ab = { a: "1", b: "2" };
+const ba = { b: "2", a: "1" };
+assertObjectsEqual(eqObjects(ab, ba), true); // => true
