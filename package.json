@@ -3,7 +3,7 @@
     "chai": "^4.3.4",
     "mocha": "^9.1.4"
   },
-  "name": "lotide",
+  "name": "@alparslanustaa/lotide",
   "version": "1.0.0",
   "main": "assertArraysEqual.js",
   "directories": {
@@ -99,11 +99,11 @@
     "type": "git",
     "url": "git+https://github.com/alparslanustaa/Lotide.git"
   },
-  "author": "",
+  "author": "Alparslan Usta",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/alparslanustaa/Lotide/issues"
   },
   "homepage": "https://github.com/alparslanustaa/Lotide#readme",
-  "description": ""
+  "description": "Mini clone library"
 }
