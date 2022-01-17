@@ -3,7 +3,7 @@
     "chai": "^4.3.4",
     "mocha": "^9.1.4"
   },
-  "name": "@alparslanustaa/lotide",
+  "name": "@rdhbust/lotide",
   "version": "1.0.0",
   "main": "assertArraysEqual.js",
   "directories": {
